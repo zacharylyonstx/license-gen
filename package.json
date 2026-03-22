@@ -1,5 +1,5 @@
 {
-  "name": "license-gen",
+  "name": "@zacharylyonstx/license-gen",
   "version": "1.0.0",
   "description": "Generate LICENSE files with proper year and author name auto-filled. Supports MIT, Apache-2.0, GPL-3.0, BSD, ISC, MPL, LGPL, AGPL, Unlicense, CC0, and CC-BY.",
   "main": "index.js",
@@ -39,5 +39,8 @@
   ],
   "engines": {
     "node": ">=14"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
