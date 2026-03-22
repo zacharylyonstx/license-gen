@@ -1,0 +1,43 @@
+{
+  "name": "license-gen",
+  "version": "1.0.0",
+  "description": "Generate LICENSE files with proper year and author name auto-filled. Supports MIT, Apache-2.0, GPL-3.0, BSD, ISC, MPL, LGPL, AGPL, Unlicense, CC0, and CC-BY.",
+  "main": "index.js",
+  "bin": {
+    "license-gen": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "node bin/cli.js list"
+  },
+  "keywords": [
+    "license",
+    "generator",
+    "mit",
+    "apache",
+    "gpl",
+    "bsd",
+    "isc",
+    "cli",
+    "open-source",
+    "oss"
+  ],
+  "author": "Zak Lyons",
+  "license": "MIT",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zacharylyonstx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zacharylyonstx/license-gen.git"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=14"
+  }
+}
